@@ -1,0 +1,76 @@
+header {
+  background-color: #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: darkgoldenrod;
+  text-decoration: underline;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.produtos .cards {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.produtos .cards:hover {
+  border: 2px solid darkgoldenrod;
+}
+
+.produtos .cards:hover h2 {
+  font-size: 34px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produtos p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.produtos span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.rodape {
+  background: url(assets/bg.jpg);
+  text-align: center;
+  padding: 40px 0;
+}
+
+.rodape p {
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 20px;
+}

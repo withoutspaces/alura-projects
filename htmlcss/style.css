@@ -1,0 +1,23 @@
+.image-home {
+  width: 100%;
+}
+
+#sobre {
+  text-align: center;
+  background-color: #cccccc;
+  padding: 20px;
+}
+
+#sobre h2 {
+  padding: 10px;
+}
+
+#beneficios ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-left: 15%;
+}
+#beneficios img {
+  width: 50%;
+}
